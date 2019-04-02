@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# test190402
 # Program:
 #         Installing some app.....
 # 
@@ -8,6 +7,7 @@
 # http://linux.vbird.org/linux_basic/0340bashshell-scripts.php
 #  
 # History:
+# 2019/04/02 Joseph Huang  Add some tools
 # 2018/04/02 Joseph Huang  Add sublime   v1.3
 # 2018/03/29 Joseph Huang  Add whiptail  v1.1
 # 2018/03/29 Joseph Huang  First Release v1.0
@@ -31,22 +31,22 @@ List_package () {
 	whiptail --title "List of Installation" --checklist --separate-output \
 	"Bugs: 1.OK/Cancel can't choose (>> use "Esc")" 20 90 14 \
 	"vim"				"Text editor" OFF \
-	"Sublime"			"Sublime Text 3" OFF \
+	"Sublime"			"Text editor: Sublime Text 3" OFF \
+	"build-essential"	"Coding" OFF \
+	"git"				"Coding-Code tracking " OFF \
+	"repo"				"Coding-Code tracking" OFF \
+	"nmap"				"Security Scanner" OFF \
+	"htop"				"Interactive process viewer" OFF \
 	"gparted"			".." OFF \
 	"cheese"			".." OFF \
 	"python-pip"		".." OFF \
 	"smbclient"			".." OFF \
-	"v4l-utils"			".." OFF \
-	"libv4l-dev"		".." OFF \
-	"libopencv-dev"		".." OFF \
-	"build-essential"	".." OFF \
-	"python-opencv"		".." OFF \
-	"gstreamer1.0"		".." OFF \
-	"gstreamer1.0-tools"		".." OFF \
-	"gstreamer1.0-plugins-base"	".." OFF \
-	"gstreamer1.0-plugins-good"	".." OFF \
-	"gstreamer1.0-plugins-bad"	".." OFF \
-	"gstreamer1.0-plugins-ugly"	".." OFF \
+	"v4l-utils"			"Video-" OFF \
+	"libv4l-dev"		"Video-" OFF \
+	"libopencv-dev"		"Video-" OFF \
+	"python-opencv"		"Video-" OFF \
+	"gstreamer1.0"		"Video-" OFF \
+	"gstreamer1.0-tools"		"Video-" OFF \
 	"other" "For Complex Installation" OFF 2>results
 }
 #libgstreamer1.0-0
