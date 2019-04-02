@@ -1,4 +1,6 @@
 #!/bin/bash
+
+# test190402
 # Program:
 #         Installing some app.....
 # 
