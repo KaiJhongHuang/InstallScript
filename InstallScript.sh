@@ -1,9 +1,7 @@
 #!/bin/bash
 
-# 0402test branch
 # Program:
-#         Installing some app.....
-# <OAO>
+#         Installing app automaticly
 # 
 # Reference:
 # http://linux.vbird.org/linux_basic/0340bashshell-scripts.php
