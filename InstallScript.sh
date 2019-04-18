@@ -37,6 +37,7 @@ List_package () {
 	"repo"				"Coding-Code tracking" OFF \
 	"nmap"				"Security Scanner" OFF \
 	"htop"				"Interactive process viewer" OFF \
+	"tightvncserver"	"vnc server" OFF \
 	"curl"				"http tools" OFF \
 	"gparted"			".." OFF \
 	"cheese"			".." OFF \
