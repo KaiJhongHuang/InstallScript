@@ -37,6 +37,7 @@ List_package () {
 	"repo"				"Coding-Code tracking" OFF \
 	"nmap"				"Security Scanner" OFF \
 	"htop"				"Interactive process viewer" OFF \
+	"curl"				"http tools" OFF \
 	"gparted"			".." OFF \
 	"cheese"			".." OFF \
 	"python-pip"		".." OFF \
